@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item android:id="@+id/contests"
+        android:title="Contests"
+        android:icon="@drawable/contests"/>
+
+    <item android:id="@+id/path"
+        android:title="Guided Path"
+        android:icon="@drawable/path"/>
+
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/baseline_person_24"/>
+</menu>

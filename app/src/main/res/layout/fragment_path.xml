@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Path">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:background="@color/white">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+      android:layout_margin="5dp"
+       android:orientation="vertical"
+       android:background="@drawable/pathback">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="Algorithms"
+         android:textColor="@color/white"
+         android:textStyle="bold"
+         android:textSize="18sp"
+         android:layout_marginStart="5dp"
+          android:layout_marginTop="10dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="300 Article"
+         android:layout_marginStart="5dp"
+         android:textColor="@color/white"/>
+
+      <ImageView
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+         android:src="@drawable/baseline_arrow_forward_ios_24"
+         android:layout_gravity="end"
+         android:layout_marginTop="-35dp"
+          android:layout_marginEnd="5dp"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:layout_margin="5dp"
+       android:orientation="vertical"
+       android:background="@drawable/pathback">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Web Technologies"
+          android:textColor="@color/white"
+          android:textStyle="bold"
+          android:textSize="18sp"
+          android:layout_marginStart="5dp"
+          android:layout_marginTop="10dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="3200 Article"
+          android:layout_marginStart="5dp"
+          android:textColor="@color/white"/>
+
+      <ImageView
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:src="@drawable/baseline_arrow_forward_ios_24"
+          android:layout_gravity="end"
+          android:layout_marginTop="-35dp"
+          android:layout_marginEnd="5dp"/>
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:orientation="vertical"
+       android:layout_margin="5dp"
+       android:background="@drawable/pathback">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Python"
+          android:textColor="@color/white"
+          android:textStyle="bold"
+          android:textSize="18sp"
+          android:layout_marginStart="5dp"
+          android:layout_marginTop="10dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="1230 Article"
+          android:layout_marginStart="5dp"
+          android:textColor="@color/white"/>
+
+      <ImageView
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:src="@drawable/baseline_arrow_forward_ios_24"
+          android:layout_gravity="end"
+          android:layout_marginTop="-35dp"
+          android:layout_marginEnd="5dp"/>
+   </LinearLayout>
+
+      <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+          android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@drawable/pathback">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Interview Experience"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:textSize="18sp"
+             android:layout_marginStart="5dp"
+             android:layout_marginTop="10dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="9732 Article"
+             android:layout_marginStart="5dp"
+             android:textColor="@color/white"/>
+
+         <ImageView
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:src="@drawable/baseline_arrow_forward_ios_24"
+             android:layout_gravity="end"
+             android:layout_marginTop="-35dp"
+             android:layout_marginEnd="5dp"/>
+</LinearLayout>
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:layout_margin="5dp"
+       android:background="@drawable/pathback">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="JavaScript"
+          android:textColor="@color/white"
+          android:textStyle="bold"
+          android:textSize="18sp"
+          android:layout_marginStart="5dp"
+          android:layout_marginTop="10dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="3212 Article"
+          android:layout_marginStart="5dp"
+          android:textColor="@color/white"/>
+
+      <ImageView
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:src="@drawable/baseline_arrow_forward_ios_24"
+          android:layout_gravity="end"
+          android:layout_marginTop="-35dp"
+          android:layout_marginEnd="5dp"/>
+   </LinearLayout>
+
+      <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+          android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@drawable/pathback">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Computer Networks"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:textSize="18sp"
+             android:layout_marginStart="5dp"
+             android:layout_marginTop="10dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="3210 Article"
+             android:layout_marginStart="5dp"
+             android:textColor="@color/white"/>
+
+         <ImageView
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:src="@drawable/baseline_arrow_forward_ios_24"
+             android:layout_gravity="end"
+             android:layout_marginTop="-35dp"
+             android:layout_marginEnd="5dp"/>
+</LinearLayout>
+      <LinearLayout
+          android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/pathback">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Android Development"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:textSize="18sp"
+             android:layout_marginStart="5dp"
+             android:layout_marginTop="10dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="8721 Article"
+             android:layout_marginStart="5dp"
+             android:textColor="@color/white"/>
+
+         <ImageView
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:src="@drawable/baseline_arrow_forward_ios_24"
+             android:layout_gravity="end"
+             android:layout_marginTop="-35dp"
+             android:layout_marginEnd="5dp"/>
+</LinearLayout>
+
+      <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="5dp"
+          android:orientation="vertical"
+    android:background="@drawable/pathback">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="ReactJS"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:textSize="18sp"
+             android:layout_marginStart="5dp"
+             android:layout_marginTop="10dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="5312 Article"
+             android:layout_marginStart="5dp"
+             android:textColor="@color/white"/>
+
+         <ImageView
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:src="@drawable/baseline_arrow_forward_ios_24"
+             android:layout_gravity="end"
+             android:layout_marginTop="-35dp"
+             android:layout_marginEnd="5dp"/>
+</LinearLayout>
+
+
+   </LinearLayout>
+
+
+
+</ScrollView>

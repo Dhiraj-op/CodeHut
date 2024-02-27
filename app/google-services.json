@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907653359306",
+    "project_id": "codehut-95fac",
+    "storage_bucket": "codehut-95fac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907653359306:android:faca1c0abf940690263633",
+        "android_client_info": {
+          "package_name": "com.wiper.codehut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907653359306-9snop8v4ac933c6t8cqb95id7brdogtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUdJ3jgRB5inZ19Tcru5zmqetZQs5o5Gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907653359306-9snop8v4ac933c6t8cqb95id7brdogtd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
